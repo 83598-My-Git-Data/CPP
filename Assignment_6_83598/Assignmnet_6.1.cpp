@@ -114,7 +114,7 @@ int main()
     e.acceptData();
     e.displayData();
 
-    person *ptr=new employee();
+    person *ptr=new employee(); //upcasting
     ptr->acceptData();
     ptr->displayData();
     delete ptr;
